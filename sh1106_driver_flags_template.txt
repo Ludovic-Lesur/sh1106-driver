@@ -1,0 +1,15 @@
+/*
+ * sh1106_driver_flags.h
+ *
+ *  Created on: 28 jan. 2025
+ *      Author: Ludo
+ */
+
+#ifndef __SH1106_DRIVER_FLAGS_H__
+#define __SH1106_DRIVER_FLAGS_H__
+
+/*** SH1106 driver compilation flags ***/
+
+#define SH1106_DRIVER_I2C_ERROR_BASE_LAST   0
+
+#endif /* __SH1106_DRIVER_FLAGS_H__ */
