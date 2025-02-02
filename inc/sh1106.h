@@ -12,7 +12,7 @@
 #include "sh1106_driver_flags.h"
 #endif
 #include "sh1106_font.h"
-#include "string.h"
+#include "strings.h"
 #include "types.h"
 
 /*** SH1106 macros ***/

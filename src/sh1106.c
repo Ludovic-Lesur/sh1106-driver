@@ -13,7 +13,7 @@
 #include "error.h"
 #include "sh1106_font.h"
 #include "sh1106_hw.h"
-#include "string.h"
+#include "strings.h"
 #include "types.h"
 
 #ifndef SH1106_DRIVER_DISABLE
