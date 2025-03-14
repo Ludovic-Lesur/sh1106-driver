@@ -11,6 +11,7 @@
 #ifndef SH1106_DRIVER_DISABLE_FLAGS_FILE
 #include "sh1106_driver_flags.h"
 #endif
+#include "error.h"
 #include "sh1106_font.h"
 #include "strings.h"
 #include "types.h"
@@ -44,7 +45,7 @@ typedef enum {
     SH1106_ERROR_TEXT_WIDTH_OVERFLOW,
     SH1106_ERROR_HORIZONTAL_LINE_WIDTH,
     // Low level drivers errors.
-    SH1106_ERROR_BASE_I2C = 0x0100,
+    SH1106_ERROR_BASE_I2C = ERROR_BASE_STEP,
     SH1106_ERROR_BASE_STRING = (SH1106_ERROR_BASE_I2C + SH1106_DRIVER_I2C_ERROR_BASE_LAST),
     // Last base value.
     SH1106_ERROR_BASE_LAST = (SH1106_ERROR_BASE_STRING + STRING_ERROR_BASE_LAST)
