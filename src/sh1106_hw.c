@@ -20,7 +20,7 @@
 /*******************************************************************/
 SH1106_status_t __attribute__((weak)) SH1106_HW_init(void) {
     // Local variables.
-    SH1106_status_t status = SH1106_SUCCESS;
+    SH1106_status_t status = SH1106_ERROR_HW_FUNCTION_NOT_IMPLEMENTED;
     /* To be implemented */
     return status;
 }
@@ -28,7 +28,7 @@ SH1106_status_t __attribute__((weak)) SH1106_HW_init(void) {
 /*******************************************************************/
 SH1106_status_t __attribute__((weak)) SH1106_HW_de_init(void) {
     // Local variables.
-    SH1106_status_t status = SH1106_SUCCESS;
+    SH1106_status_t status = SH1106_ERROR_HW_FUNCTION_NOT_IMPLEMENTED;
     /* To be implemented */
     return status;
 }
@@ -36,7 +36,7 @@ SH1106_status_t __attribute__((weak)) SH1106_HW_de_init(void) {
 /*******************************************************************/
 SH1106_status_t __attribute__((weak)) SH1106_HW_i2c_write(uint8_t i2c_address, uint8_t* data, uint8_t data_size_bytes, uint8_t stop_flag) {
     // Local variables.
-    SH1106_status_t status = SH1106_SUCCESS;
+    SH1106_status_t status = SH1106_ERROR_HW_FUNCTION_NOT_IMPLEMENTED;
     /* To be implemented */
     UNUSED(i2c_address);
     UNUSED(data);
